@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('TkAgg')  # Switching to a reliable backend: this is optional, use if plt.show() doesn't work on default backent
+matplotlib.use('TkAgg')  # Switching to a reliable backend: this is optional, use if plt.show() doesn't work on default backend
 
 import matplotlib.pyplot as plt
 import seaborn as sns
