@@ -65,13 +65,13 @@ This project is a simple **data pipeline** designed to fetch movie data from the
 ## **Screenshots**
 
 ### **1. Top 10 Highest-Rated Movies**
-![Top 10 Movies](./Screenshot%202025-02-08%20at%2012.09.09%20AM.png)
+![Top 10 Movies](./top_10_highest_rating.png)
 
 ### **2. Distribution of Movie Ratings**
-![Distribution of Ratings](./Screenshot%202025-02-08%20at%2012.10.33%20AM.png)
+![Distribution of Ratings](./distribution_of_movie_ratings.png)
 
 ### **3. Top 5 Highest-Rated Movies**
-![Top 5 Movies](./Screenshot%202025-02-08%20at%2012.11.32%20AM.png)
+![Top 5 Movies](./top_5_highest_rated.png)
 
 ---
 
