@@ -1,8 +1,12 @@
 from movies_data import fetch_movie_data
 from db_integration import store_data_in_postgres
+from dotenv import load_dotenv
+import os
 
-API_KEY = '2d2767a844fd9246eb60f6f759903660'
-DB_URL = 'postgresql://movies_pipeline_db_user:MeZmim8fN72BnQC80wLbeRVptwakjGAj@dpg-cujd66bv2p9s73fv9nr0-a.oregon-postgres.render.com/movies_pipeline_db'
+load_dotenv()
+
+API_KEY = os.getenv('MOVIE_API_KEY')
+DB_URL = os.getenv('POSTGRES_URL')
 
 def moviePipeline():
     """Main function to run the data pipeline."""
